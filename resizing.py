@@ -11,4 +11,5 @@ print('Resized dimensions:',resized_img.shape)
 
 cv2.imshow('Original',img)
 cv2.imshow('Resized',resized_img)
+cv2.imwrite('Images/r_flower.jpg',resized_img)
 cv2.waitKey(0)
